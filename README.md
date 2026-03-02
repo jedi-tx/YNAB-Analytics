@@ -25,7 +25,7 @@ A powerful, privacy-first financial dashboard built on top of the YNAB API. Visu
 ### 2. Setup (Local)
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ynab-analytics.git
+    git clone https://github.com/jedi-tx/YNAB-Analytics.git
     cd ynab-analytics
     ```
 2.  Install dependencies:
@@ -38,6 +38,13 @@ A powerful, privacy-first financial dashboard built on top of the YNAB API. Visu
     ```
 4.  Open `http://localhost:5173` in your browser.
 5.  Enter your YNAB PAT to authenticate (it is stored securely in your browser's `localStorage`).
+
+### 3. Desktop Application (.exe)
+You can also run this as a standalone Windows desktop app:
+1.  Build the app: `npm run build`
+2.  Launch Electron development: `npm run electron:dev`
+3.  To generate a portable `.exe`: `npm run electron:build`
+    - The output will be in `dist-electron/win-unpacked/` (or the portable `.exe` in `dist-electron/`).
 
 ---
 
